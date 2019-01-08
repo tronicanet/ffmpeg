@@ -1,4 +1,7 @@
 # ffmpeg
+<p align="center">
+<img src="https://github.com/tronicanet/ffmpeg/blob/master/imagenes/ffmpeg-logo-grande.png"/>
+</p>
 FFmpeg - multimedia framework
 
 **Índice**   
