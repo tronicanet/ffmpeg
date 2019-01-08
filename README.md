@@ -8,13 +8,14 @@ FFmpeg - multimedia framework
 2. [cortar video](#id2)
 3. [Eliminar el audio a un video](#id3)
 
-## Cambiar el contenedor de un vieo<a name="id1"></a>
+<a name="id1"></a>
+## Cambiar el contenedor de un vieo
 
 ```
 ffmpeg -i <input name> <output name>
 ```
-
-## Cortar video<a name="id2"></a>
+<a name="id2"></a>
+## Cortar video
 <p align="center">
 <img src="https://github.com/tronicanet/ffmpeg/blob/master/imagenes/cortar_video.png"/>
 </p>
