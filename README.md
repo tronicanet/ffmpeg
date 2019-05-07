@@ -7,6 +7,7 @@ FFmpeg - multimedia framework
 1. [cambiar el contenedor de un video](#id1)
 2. [cortar video](#id2)
 3. [Eliminar el audio a un video](#id3)
+4. [Cambiar la resolucion](#id3)
 
 <a name="id1"></a>
 ## Cambiar el contenedor de un vieo
@@ -26,7 +27,7 @@ ffmpeg -i Video_input.mp4 -ss 00:06:12.000 -to 00:06:20.000 -c:v copy -c:a copy 
 
 ## Eliminar el audio de un video<a name="id3"></a>
 
-## cambiar la resolución de un video
+## cambiar la resolución de un video<a name="id4"></a>
 ```
 ffmpeg -i input.mkv -aspect 16:9 -s 1920x1080 output.mkv
 ```
