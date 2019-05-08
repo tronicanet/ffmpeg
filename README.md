@@ -23,6 +23,8 @@ ffmpeg -i <input name> <output name>
 
 ```
 ffmpeg -i Video_input.mp4 -ss 00:06:12.000 -to 00:06:20.000 -c:v copy -c:a copy Video_salida.mp4
+
+ffmpeg -ss [inicio_en_formato_hh:mm:ss] -t [duracion_segundos] -i [archivo_original] [archivo_salida]
 ```
 
 ## Eliminar el audio de un video<a name="id3"></a>
